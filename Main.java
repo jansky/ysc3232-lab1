@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * YSC3232 Software Engineering
+ * Lab 1
+ *
+ * Ian Duncan <ian.duncan@u.yale-nus.edu.sg>
+ *
+ * This program takes any number of numeric arguments and prints out their min,
+ * max, and mean.
  */
 package com.janskyd.lab1;
 
@@ -27,7 +31,7 @@ public class Main {
                min and max.
             */
             double min = Double.parseDouble(args[0]);
-            double max = Double.parseDouble(args[1]);
+            double max = Double.parseDouble(args[0]);
             
             /* We initialize the sum used for computing the mean */
             double sum = 0.0;
